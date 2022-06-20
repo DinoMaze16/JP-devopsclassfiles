@@ -16,7 +16,7 @@ sudo systemctl start jenkins
 sudo systemctl status jenkins
 sudo ufw allow 8080
 
-
-# http://ip_address_or_domain_name:8080
+# After installing Jenkins, Follow as below:
+# http://<ip_address_or_domain_name>:8080
 # /var/lib/jenkins/secrets/initialAdminPassword
 # install suggested plugins
